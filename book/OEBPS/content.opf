@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="bookid" xml:lang="en">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="bookid">urn:uuid:5f0c2a7e-3b1d-4c8e-9a6f-2d7b1e4c9a10</dc:identifier>
+    <dc:title>Three days: a sample travel book</dc:title>
+    <dc:creator>travel-book-method</dc:creator>
+    <dc:language>en</dc:language>
+    <dc:description>An invented three-day trip (Kanazawa, Kyoto, Naoshima), written to show the method.</dc:description>
+    <meta property="dcterms:modified">2026-01-01T00:00:00Z</meta>
+    <meta name="cover" content="cover-image"/>
+  </metadata>
+  <manifest>
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="css" href="style.css" media-type="text/css"/>
+    <item id="cover-image" href="cover.png" media-type="image/png" properties="cover-image"/>
+    <item id="fig-rock-garden" href="img/rock-garden.png" media-type="image/png"/>
+    <item id="fig-noren" href="img/noren.png" media-type="image/png"/>
+    <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="how" href="01-how-to-use.xhtml" media-type="application/xhtml+xml"/>
+    <item id="days" href="02-the-days.xhtml" media-type="application/xhtml+xml"/>
+    <item id="day1" href="day-1-kanazawa.xhtml" media-type="application/xhtml+xml"/>
+    <item id="day2" href="day-2-kyoto.xhtml" media-type="application/xhtml+xml"/>
+    <item id="day3" href="day-3-naoshima.xhtml" media-type="application/xhtml+xml"/>
+    <item id="minimum" href="03-the-minimum.xhtml" media-type="application/xhtml+xml"/>
+    <item id="closing" href="04-closing.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover" linear="yes"/>
+    <itemref idref="how"/>
+    <itemref idref="days"/>
+    <itemref idref="day1"/>
+    <itemref idref="day2"/>
+    <itemref idref="day3"/>
+    <itemref idref="minimum"/>
+    <itemref idref="closing"/>
+  </spine>
+</package>

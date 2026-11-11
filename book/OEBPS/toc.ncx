@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:5f0c2a7e-3b1d-4c8e-9a6f-2d7b1e4c9a10"/>
+    <meta name="dtb:depth" content="1"/>
+  </head>
+  <docTitle><text>Three days: a sample travel book</text></docTitle>
+  <navMap>
+    <navPoint id="np-how" playOrder="1"><navLabel><text>How to use this book</text></navLabel><content src="01-how-to-use.xhtml"/></navPoint>
+    <navPoint id="np-days" playOrder="2"><navLabel><text>The days</text></navLabel><content src="02-the-days.xhtml"/></navPoint>
+    <navPoint id="np-day1" playOrder="3"><navLabel><text>Day 1 · A city that kept its gold</text></navLabel><content src="day-1-kanazawa.xhtml"/></navPoint>
+    <navPoint id="np-day2" playOrder="4"><navLabel><text>Day 2 · Fifteen stones, never all at once</text></navLabel><content src="day-2-kyoto.xhtml"/></navPoint>
+    <navPoint id="np-day3" playOrder="5"><navLabel><text>Day 3 · An island that turned into a museum</text></navLabel><content src="day-3-naoshima.xhtml"/></navPoint>
+    <navPoint id="np-minimum" playOrder="6"><navLabel><text>The minimum</text></navLabel><content src="03-the-minimum.xhtml"/></navPoint>
+    <navPoint id="np-closing" playOrder="7"><navLabel><text>Before you close the book</text></navLabel><content src="04-closing.xhtml"/></navPoint>
+  </navMap>
+</ncx>

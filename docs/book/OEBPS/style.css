@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* Plain on purpose: a Kindle ignores most CSS, and what it ignores should fail quietly. */
+
+body { margin: 0 0.4em; text-align: justify; line-height: 1.5; }
+
+h1 { font-size: 1.5em; line-height: 1.25; margin: 0.2em 0 0.4em; text-align: left; page-break-before: always; }
+h2 { font-size: 1.15em; margin: 1.5em 0 0.4em; text-align: left; }
+
+.kicker { font-size: 0.8em; letter-spacing: 0.12em; text-transform: uppercase;
+          margin: 0 0 0.2em; text-align: left; page-break-before: always; }
+h1.nobreak, .kicker.nobreak { page-break-before: auto; }
+
+p { margin: 0 0 0.7em; text-indent: 0; }
+.lead { font-style: italic; margin-bottom: 1.2em; }
+.jp { font-size: 1.15em; }
+.center { text-align: center; }
+
+blockquote { margin: 1em 1.2em; font-style: italic; }
+
+.box { border: 1px solid #999; padding: 0.6em 0.7em; margin: 1.2em 0; font-size: 0.92em; text-align: left; }
+.box p { margin: 0 0 0.4em; }
+.box p:last-child { margin-bottom: 0; }
+
+ul, ol { margin: 0 0 0.8em; padding-left: 1.2em; }
+li { margin-bottom: 0.3em; text-align: left; }
+
+.dia { margin: 0 0 0.75em; text-align: left; line-height: 1.4; }
+.dia .f { font-weight: bold; }
+
+.sources { font-size: 0.82em; text-align: left; }
+.sources li { margin-bottom: 0.2em; }
+
+.title-page { text-align: center; }
+.title-page img { max-width: 100%; height: auto; }
+
+figure.fig { margin: 1.5em 0; padding: 0; text-align: center; page-break-inside: avoid; break-inside: avoid; }
+figure.fig img { max-width: 100%; width: auto; height: auto; }
+figure.fig figcaption { font-size: 0.78em; color: #555; text-align: center; margin-top: 0.4em; font-style: italic; }

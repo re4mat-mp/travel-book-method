@@ -1,0 +1,5 @@
+SKELETON.md
+/sample.epub
+/sample-color.epub
+.DS_Store
+__pycache__/
